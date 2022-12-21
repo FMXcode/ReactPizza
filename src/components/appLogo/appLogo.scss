@@ -1,5 +1,24 @@
 .appLogo{
+    display: flex;
     h2{
-
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 29px;
+        margin: 0;
+    }
+    p{
+        margin: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #7B7B7B;
+    }
+    img{
+        padding-top: 10px;
+        width: 33px;
+        height: 40px;
+    }
+    .textLogo{
+        padding-left: 17px;
     }
 }

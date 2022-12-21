@@ -1,0 +1,70 @@
+.appBasketCard{
+  .line{
+    height: 1px;
+    background: #F4F4F4;
+    margin: 30px;
+  }
+  hr{
+    margin-bottom: 30px;
+  }
+    .product{
+      max-width: 650px;
+        img{
+          display: block;
+          width: 80px;
+          height: 80px;
+          margin: 0 auto;
+        }
+        .productName{
+          margin: 14px 0px 8px -10px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 27px;
+        }
+        .productCharacteristic{
+          margin: 0px 0px 0px -10px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+          color: #8D8D8D;
+        }
+    }
+  .count{
+    margin-top: 22px;
+    .countValue{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+    }
+    img{
+      width: 32px;
+      height: 32px;
+    }
+    .ColMinus{
+      padding: 0;
+      text-align: center;
+    }
+  }
+  .price{
+    p{
+      margin-top: 22px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+    }
+  }
+  .close{
+      img{
+        margin-top: 22px;
+        float: right;
+      }
+  }
+}
+.hidden{
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}

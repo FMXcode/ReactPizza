@@ -1,5 +1,7 @@
 .App{
-    width: 1140px;
     margin: 0 auto;
-    padding: 49px 77px;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }

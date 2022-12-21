@@ -1,0 +1,63 @@
+.appBasketControl {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  .pizzaTotal {
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 27px;
+      margin-bottom: 50px;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    a {
+      width: 211px;
+      height: 55px;
+      color: #CACACA;
+      text-decoration: none;
+      border: 1px solid #D3D3D3;
+      border-radius: 30px;
+      padding: 10px 18px;
+
+      img {
+        margin-right: 8px;
+        margin-bottom: 3px;
+      }
+    }
+  }
+
+  .pizzaSum {
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 27px;
+      margin-bottom: 40px;
+
+      span {
+        font-weight: 700;
+        color: #FE5F1E;
+      }
+    }
+    a{
+      max-width: 211px;
+      max-height: 44px;
+      background: #FE5F1E;
+      border-radius: 30px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 10px 18px;
+      float: right;
+    }
+  }
+}

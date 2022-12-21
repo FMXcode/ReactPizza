@@ -1,0 +1,14 @@
+.appMenu{
+  padding: 40px 0px 10px 0px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  .appDropDown {
+    color: #EB5A1E;
+    text-decoration: none;
+  }
+  .dropDownText{
+    margin-left: 100px;
+  }
+}
